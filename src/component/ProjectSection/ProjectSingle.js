@@ -1,7 +1,7 @@
 import { projects } from "../../data/projectSection"; // Adjust path as necessary
 import React, { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
-import { Col, Row, Image } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import ImageSlider from '../ProjectSection/ImageSlider';
 import VideoSlider from '../ProjectSection/VideoSlider';
 
@@ -21,21 +21,22 @@ const ProjectSingle = ({ id }) => {
   if (!projectData) {
     return <p>Project not found!</p>;
   }
-  const { images, title, about, link, githubLink, paragraphs, clients, category, date, video } = projectData;
+  const { images, title, about, link, githubLink, paragraphs, clients, category, video } = projectData;
 
 
 
   return (
     <section className={"project-single style-two"}>
-      <div className="auto-container">
+      <div className="auto-container-copy">
         <Row className="clearfix">
+          <div className="div-margin">
+            <h2 className="centered-title"> {title}  </h2>
+          </div>
 
-
-          <h2 style={{ display: "flex", alignItems: "center", justifyContent: "center", marginTop: "50px" }}> {title}  </h2>
           {video ? (
             <>
               <ImageSlider images={images} />
-              <h3 style={{ display: "flex", alignItems: "center", justifyContent: "center" }}> Video Recording  </h3>
+              <h3 className="centered-title"> Video Recording  </h3>
               <VideoSlider src={video} view={category} />
 
             </>
@@ -44,7 +45,7 @@ const ProjectSingle = ({ id }) => {
 
 
           <Col lg={12} md={12} sm={12}>
-            <div>
+            <div className="auto-container">
               <div className="text-content">
                 <Row>
                   <Col lg={8} md={12} sm={12}>
@@ -86,32 +87,31 @@ const ProjectSingle = ({ id }) => {
                           )}
 
                         </li>
-                        <li>
-                          <strong>Github:</strong> <br />
+                        {githubLink && (
+                          <li>
+                            <strong>Github:</strong> <br />
+                            <a
+                              href={githubLink}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="portfolio-button-link"
+                            >
+                              View Source Code
+                            </a>
+                          </li>
+                        )}
 
-                          <a
-                            href={githubLink}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="portfolio-button-link"
-                          >
-                            View Source Code
-                          </a>
 
-                        </li>
 
-                        <li>
-                          <strong>Client:</strong> <br />
-                          {clients}
-                        </li>
                         <li>
                           <strong>Category:</strong> <br />
                           {category}
                         </li>
                         <li>
-                          <strong>Dated:</strong> <br />
-                          {date}
+                          <strong>Client:</strong> <br />
+                          {clients}
                         </li>
+
                         {/* <li >
 
 

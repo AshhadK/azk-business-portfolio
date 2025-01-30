@@ -32,24 +32,20 @@ const navItems = [
 export const socials = [
   {
     id: 1,
-    icon: "fab fa-facebook-square",
-    to: "#",
+    icon: "fab fa-linkedin-in",
+    to: "https://www.linkedin.com/in/ashhad-zak/",
   },
   {
     id: 2,
-    icon: "fab fa-twitter",
-    to: "#",
+    icon: "fab fa-github",
+    to: "https://github.com/AshhadK/",
   },
   {
     id: 3,
-    icon: "fab fa-instagram",
-    to: "#",
+    icon: "fas fa-envelope",
+    to: "ashhad.k2@gmail.com",
   },
-  {
-    id: 4,
-    icon: "fab fa-pinterest-p",
-    to: "#",
-  },
+
 ];
 
 const headerData = {
@@ -64,7 +60,7 @@ const headerData = {
   email: "ashhad.k2@gmail.com",
   socials,
   icon,
-  text: "azk-khan is a premium Template for Digital Agencies, Start Ups, Small Business and a wide range of other agencies.",
+  text: "A sleek, high-performance portfolio showcasing my projects, skills, and blog posts. Implemented smooth animations and interactive elements for a dynamic user experience.",
 };
 
 export default headerData;

@@ -30,40 +30,34 @@ const ImageSlider = ({ images }) => {
     }, [nextImage, images.length]);
 
     return (
-        <div className="sliderContainer" >
-            {/* Map through images and display the current one */}
-            <div className="sliderBorder">
+        <div className="image-slider-container">
+            <div className="image-slider-wrapper">
                 {images.map((image, index) => (
                     index === currentIndex && (
-
                         <Image
                             key={index}
                             src={require(`../../assets/images/resource/${image}`)}
                             alt={`Image ${index + 1}`}
-                            className="sliderImage"  // Apply slider image class
-                            width={1600}
-                            height={900}
+                            className="slider-image"
                         />
-
-
                     )
                 ))}
-
-                {images.length > 1 && (
-                    <div onClick={prevImage} className="buttonBase prevButton">
-                        <span className="icon fa fa-angle-left"></span>
-                    </div>
-                )}
-
-
-                {images.length > 1 && (
-                    <div onClick={nextImage} className="buttonBase nextButton">
-                        <span className="icon fa fa-angle-right"></span>
-                    </div>
-                )}
             </div>
-        </div >
+
+            {images.length > 1 && (
+                <div onClick={prevImage} className="button-base prev-button">
+                    <span className="icon fa fa-angle-left"></span>
+                </div>
+            )}
+
+            {images.length > 1 && (
+                <div onClick={nextImage} className="button-base next-button">
+                    <span className="icon fa fa-angle-right"></span>
+                </div>
+            )}
+        </div>
     );
+
 };
 
 export default ImageSlider;

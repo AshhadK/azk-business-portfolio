@@ -13,48 +13,34 @@ const items2 = [
     image: "2.jpg",
     title: "The Datayard",
     tagline: "Web Development ",
-    filter: ["all", "web-development"],
+    filter: ["all", "web-development", "wordpress"],
   },
   {
-    id: 11,
-    image: "11.jpg",
+    id: 3,
+    image: "3.jpg",
     title: "Movie Finder",
     tagline: "Web Development ",
     filter: ["all", "web-development"],
   },
   {
-    id: 12,
-    image: "12.jpg",
+    id: 4,
+    image: "4.jpg",
     title: "Teach Mate",
     tagline: "Web Development ",
     filter: ["all", "web-development"],
   },
   {
-    id: 3,
-    image: "3.jpg",
+    id: 5,
+    image: "5.jpg",
     title: "The Datayard - Plugin",
     tagline: "Plugin Development",
     filter: ["all", "web-development", "plugin-development"],
   },
 
   {
-    id: 4,
-    image: "4.jpg",
-    title: "Salezman App",
-    tagline: "Mobile Development",
-    filter: ["all", "mobile-development", "prototype"],
-  },
-  {
-    id: 5,
-    image: "5.jpg",
-    title: "BP- Yard",
-    tagline: "Mobile Development",
-    filter: ["all", "mobile-development", "prototype"],
-  },
-  {
     id: 6,
     image: "6.jpg",
-    title: "Jooble",
+    title: "Salezman App",
     tagline: "Mobile Development",
     filter: ["all", "mobile-development", "prototype"],
   },
@@ -68,26 +54,140 @@ const items2 = [
   {
     id: 8,
     image: "8.jpg",
+    title: "BP- Yard",
+    tagline: "Mobile Development",
+    filter: ["all", "mobile-development", "prototype"],
+  },
+  {
+    id: 9,
+    image: "9.jpg",
+    title: "Jooble",
+    tagline: "Mobile Development",
+    filter: ["all", "mobile-development", "prototype"],
+  },
+
+  {
+    id: 10,
+    image: "10.jpg",
     title: "Test Signup-Login",
     tagline: "Mobile Development",
     filter: ["all", "mobile-development"],
   },
 
+
   {
-    id: 9,
-    image: "9.jpg",
+    id: 11,
+    image: "11.jpg",
+    title: "Cuirderi",
+    tagline: "shopify",
+    filter: ["all", "shopify"],
+  },
+  {
+    id: 12,
+    image: "12.jpg",
+    title: "Safe Kiddo Gear",
+    tagline: "shopify",
+    filter: ["all", "shopify"],
+  },
+  {
+    id: 13,
+    image: "13.jpg",
+    title: "Kustom Neons Falkrik",
+    tagline: "shopify",
+    filter: ["all", "shopify"],
+  },
+  {
+    id: 14,
+    image: "14.jpg",
+    title: "The Yoga Tree",
+    tagline: "shopify",
+    filter: ["all", "shopify"],
+  },
+  {
+    id: 15,
+    image: "15.jpg",
+    title: "Luca Danni",
+    tagline: "shopify",
+    filter: ["all", "shopify"],
+  },
+  {
+    id: 16,
+    image: "16.jpg",
+    title: "Blue Light Barrier",
+    tagline: "shopify",
+    filter: ["all", "shopify"],
+  },
+  {
+    id: 17,
+    image: "17.jpg",
+    title: "Experience Fresh",
+    tagline: "wordpress",
+    filter: ["all", "wordpress"]
+  },
+  {
+    id: 18,
+    image: "18.jpg",
+    title: "Navion Senior Solutions",
+    tagline: "wordpress",
+    filter: ["all", "wordpress"]
+  },
+  {
+    id: 19,
+    image: "19.jpg",
+    title: "CarterCo Plumbing",
+    tagline: "wordpress",
+    filter: ["all", "wordpress"]
+  },
+  {
+    id: 20,
+    image: "20.jpg",
+    title: "Zayra Dental",
+    tagline: "wordpress",
+    filter: ["all", "wordpress"]
+  },
+  {
+    id: 21,
+    image: "21.jpg",
+    title: "Fast Line Insurance",
+    tagline: "wordpress",
+    filter: ["all", "wordpress"]
+  },
+  {
+    id: 22,
+    image: "22.jpg",
+    title: "Bubble Games",
+    tagline: "wordpress",
+    filter: ["all", "wordpress"]
+  },
+  // {
+  //   id: 23,
+  //   image: "23.jpg",
+  //   title: "Fun Fitness Littlies",
+  //   tagline: "wordpress",
+  //   filter: ["all", "wordpress"]
+  // },
+  {
+    id: 23,
+    image: "23.jpg",
+    title: "Bancroft Construction",
+    tagline: "wordpress",
+    filter: ["all", "wordpress"]
+  },
+  {
+    id: 24,
+    image: "24.jpg",
     title: "Attendance Management System",
     tagline: "Prototype",
     filter: ["all", "prototype"],
   },
   {
-    id: 10,
-    image: "10.jpg",
+    id: 25,
+    image: "25.jpg",
     title: "The Datayard",
     tagline: "Prototype",
     filter: ["all", "prototype"],
   },
-  
+
 
 
 
@@ -196,20 +296,19 @@ export const gallerySectionOne = {
 
     {
       id: 4,
-      name: "Prototype",
-      tab: "prototype",
-    },
-
-    {
-      id: 5,
       name: "Plugin Development",
       tab: "plugin-development",
     },
-    // {
-    //   id: 6,
-    //   name: "Graphic Design",
-    //   tab: "graphic-design",
-    // },
+    {
+      id: 5,
+      name: "WordPress",
+      tab: "wordpress",
+    },
+    {
+      id: 6,
+      name: "Shopify",
+      tab: "shopify",
+    },
 
   ],
   items: items2,

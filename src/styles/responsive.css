@@ -451,7 +451,7 @@
   .agency-section,
   .we-work-section,
   .project-single {
-    padding: 90px 0px 50px;
+    padding: 0px 0px 50px;
   }
 
   .why-us-section {
@@ -1414,5 +1414,61 @@
 
   .main-header .header-upper .inner-container {
     display: flex;
+  }
+}
+@media (max-width: 768px) {
+  .wrapper-video-portfolio {
+    padding: 20px 30px; /* Less padding for smaller screens */
+  }
+
+  .wrapper-mobile-video-portfolio {
+    width: 100%; /* Take full width for mobile */
+    padding: 20px; /* Less padding */
+  }
+
+  .centered-circle {
+    height: 80px;
+    width: 80px;
+  }
+
+  .portfolio-ripple {
+    width: 80px;
+    height: 80px;
+  }
+
+  .video-actual {
+    width: 100%;
+    height: auto; /* Ensure the video maintains aspect ratio */
+  }
+}
+
+@media (max-width: 480px) {
+  .centered-circle {
+    height: 60px;
+    width: 60px;
+  }
+
+  .portfolio-ripple {
+    width: 60px;
+    height: 60px;
+  }
+
+  .video-actual {
+    width: 100%;
+    height: auto; /* Ensures it scales well on small screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .centered-title {
+    margin-top: 30px; /* Reduced margin for smaller screens */
+    font-size: 38px; /* Reduced font size for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .centered-title {
+    margin-top: 20px; /* Further reduced margin for very small screens */
+    font-size: 32px; /* Reduced font size for mobile */
   }
 }

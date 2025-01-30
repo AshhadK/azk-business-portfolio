@@ -190,7 +190,6 @@ export const projects = [
     ],
     clients: "Semester Project",
     category: "Web Development",
-    date: "Jun 2021 - Dec 2021",
     link: "https://airline.novacare.site/",
     githubLink: "https://github.com/AshhadK/primero-avionics"
   },
@@ -210,7 +209,6 @@ export const projects = [
     ],
     clients: "Semester Project",
     category: "Web Development",
-    date: "Jun 2022 - Aug 2023",
     link: "",
     githubLink: "https://github.com/AshhadK/the_datayard"
   }
@@ -231,7 +229,6 @@ export const projects = [
     ],
     clients: "Semester Project",
     category: "Plugin Development",
-    date: "Jun 2022 - Aug 2023",
     link: "",
     githubLink: "https://github.com/AshhadK/the_datayard"
   },
@@ -250,7 +247,6 @@ export const projects = [
     ],
     clients: "Muller & Phipps Pvt Ltd. M&P",
     category: "Mobile Development",
-    date: "10 June, 2021",
     link: "https://figma.com/proto/kPmHdvnLyv60ON3krAm2vK/SALESMAN-APP?node-id=168-5&p=f&t=3j2idT8QVTfdXeqh-0&scaling=scale-down&content-scaling=fixed&page-id=15%3A49",
     githubLink: "https://github.com/AshhadK/salezman_app"
   },
@@ -268,9 +264,8 @@ export const projects = [
       `The app categorizes blood pressure readings into clear indicators—high, low, or normal—providing users with an immediate understanding of their current cardiovascular status. This smart feedback system adds a layer of convenience and accessibility to health monitoring.`,
       `Users can set reminders within the app to prompt them to check their blood pressure regularly. This feature is a proactive measure to encourage users to stay committed to their health routine, fostering a habit of regular check-ins.`,
     ],
-    clients: "John Doe",
+    clients: "Personal Project",
     category: "Mobile Development",
-    date: "10 June, 2021",
     link: "https://www.figma.com/design/ojlr8LbOTYRCQNWzwbUO8H/BP-YARD?node-id=0-1&t=CiYoOEr5s7tU1lWJ-1",
     githubLink: "https://github.com/AshhadK/bp_yard",
 
@@ -289,9 +284,8 @@ export const projects = [
       `The final page delves into the user's future aspirations. Users articulate their plans for the next five years, providing a comprehensive understanding of their career trajectory.`,
       `In summary, our app not only captures the basic demographic and professional information but also delves into the user's preferences and long-term goals. This multifaceted approach ensures that employers accessing this data gain a holistic view of each candidate. The app is designed to be intuitive, secure, and tailored to the unique needs of job-seeking students.`,
     ],
-    clients: "Jessica Brown Green",
+    clients: "Freelance Project",
     category: "Mobile Development",
-    date: "20 May, 2020",
     link: "https://www.figma.com/design/IXXekqrxANhfxCt1MBoDgy/Jooble?node-id=0-1&t=i2gJweMCyDfhI0ru-1",
     githubLink: "https://github.com/AshhadK/jooble_app",
 
@@ -313,9 +307,8 @@ export const projects = [
       `View Statements: Access detailed statements that show all credits and debits across your accounts, helping you stay on top of your financial transactions.`
 
     ],
-    clients: "Jessica Brown Green",
+    clients: "Personal Porject",
     category: "Mobile Development",
-    date: "20 May, 2020",
     link: "https://www.figma.com/proto/WK30lI9DYxwDt8wGy9o9Vv/EXPENSE-DIARIES?node-id=270-92&p=f&t=RkY4hriPAanGD8rU-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
     githubLink: "https://github.com/AshhadK/expense_diaries",
   },
@@ -341,9 +334,8 @@ become visible and “view” will change to “hide”.`,
       `The last screen PROFILE INFO displays all the user information (profile image, full name, email
 address,phone number and address).`,
     ],
-    clients: "John Doe",
+    clients: "Dev Test Task",
     category: "Mobile Development",
-    date: "10 June, 2021",
     link: "",
     githubLink: "https://github.com/AshhadK/dev_task",
   },
@@ -356,8 +348,7 @@ address,phone number and address).`,
     paragraphs: [`Created a simple React website with the Open Movie API integrated. It has a search functionality, and when a movie is searched, the movie details are displayed upon clicking the movie title.`],
     clients: "Personal Project",
     category: "Website Development",
-    date: "10 June, 2021",
-    link: "",
+    link: "Personal Project",
     githubLink: "https://github.com/AshhadK/open-movie",
   },
   {
@@ -370,9 +361,219 @@ expertise in specific subjects and indicate the areas they can travel to, facili
 `],
     clients: "Freelance Project",
     category: "Website Development",
-    date: "June 2021 - Dec 2021",
-    link: "",
+    link: "Freelance Project",
     githubLink: "https://github.com/AshhadK/teach-mate",
   },
+  {
+    id: 11,
+    images: ["featured-image-13.jpg"],
+    title: "Cuirderi: Online Market Place for Custom Jackets",
+    about: "Cuirderi offers premium custom leather jackets, allowing customers to personalize every detail for a perfect fit.",
+    paragraphs: [
+      "Cuirderi is dedicated to creating high-quality leather jackets that stand out for their craftsmanship and attention to detail. The brand believes in offering customers the freedom to design their jackets according to their own taste. Whether it's choosing the color, the type of leather, or the overall fit, Cuirderi ensures that every jacket is a perfect match for the customer’s personality and style.",
+      "The brand prides itself on its commitment to providing premium quality without the steep price tag. By cutting out middlemen and focusing on direct-to-consumer sales, Cuirderi is able to offer handcrafted jackets at an affordable price, ensuring customers get excellent value for their money. Each jacket is made with care and precision, ensuring longevity and a timeless appeal that will last for years.",
+      "What truly sets Cuirderi apart is the dedication to customer satisfaction. With a production time of just 20 days, customers can expect fast delivery without compromising on quality. Each jacket goes through over 40 quality control checkpoints, ensuring that every stitch is perfect and the finished product meets the highest standards. Cuirderi doesn’t just sell jackets; they provide a tailored experience that reflects the customer’s individuality."
+    ],
+    clients: "CodesSavvy Dev Test Task",
+    category: "Website Development",
+    link: "https://www.cuirderi.com/",
+
+  },
+  {
+    id: 12,
+    images: ["featured-image-14.jpg"],
+    title: "Safe Kiddo Gear: Safety Essentials for Kids",
+    about: "Safe Kiddo Gear provides high-quality, child-safe products designed for everyday use, ensuring parents can keep their kids safe and comfortable.",
+    paragraphs: [
+      "Safe Kiddo Gear specializes in offering a wide range of safe and durable products for children, from protective gear to everyday essentials.",
+      "The brand prioritizes child safety by using high-quality, non-toxic materials and ensuring all products meet safety regulations.",
+      "Parents trust Safe Kiddo Gear for its commitment to quality, affordability, and peace of mind, providing essential items that make parenting easier."
+    ],
+    clients: "Freelance Project",
+    category: "CMS - Shopify",
+    link: "https://safekiddogear.com/"
+  },
+  {
+    id: 12,
+    images: ["featured-image-14.jpg"],
+    title: "Safe Kiddo Gear: Safety Essentials for Kids",
+    about: "Safe Kiddo Gear provides high-quality, child-safe products designed for everyday use, ensuring parents can keep their kids safe and comfortable.",
+    paragraphs: [
+      "Safe Kiddo Gear is a trusted destination for parents seeking high-quality products designed to keep their children safe and comfortable. From protective gear to everyday essentials, the brand offers a wide range of carefully crafted items that meet rigorous safety standards. Every product is designed with children's well-being in mind, using non-toxic materials that parents can trust.",
+      "The brand’s mission goes beyond just providing products; it focuses on creating solutions that make parenting simpler and stress-free. Whether parents are looking for durable outdoor gear, ergonomic accessories, or thoughtful everyday items, Safe Kiddo Gear delivers with a focus on functionality and comfort. This commitment ensures that both kids and parents enjoy peace of mind.",
+      "Parents choose Safe Kiddo Gear for its dedication to quality, affordability, and safety. With an emphasis on innovation and practicality, the brand continues to be a go-to choice for families who prioritize their children’s well-being without compromising on style or functionality."
+    ],
+    clients: "Freelance Project",
+    category: "CMS - Shopify",
+    link: "https://safekiddogear.com/"
+  },
+  {
+    id: 13,
+    images: ["featured-image-15.jpg"],
+    title: "Kustom Neons Falkirk: Personalized Neon Signs",
+    about: "Kustom Neons Falkirk specializes in creating custom neon signs for homes, businesses, and events, adding a vibrant and unique touch to any space.",
+    paragraphs: [
+      "Kustom Neons Falkirk brings creativity to life by crafting personalized neon signs that add a vibrant and stylish touch to any space. From home decor to commercial signage and event decorations, the brand offers fully customizable options that fit every need and aesthetic preference.",
+      "The brand’s dedication to high-quality craftsmanship ensures that each neon sign is visually stunning and durable. With a variety of design options, colors, and sizes, customers can bring their creative visions to life with ease. The attention to detail and expert craftsmanship ensure that the final product not only looks beautiful but also stands the test of time.",
+      "Whether you're looking to elevate your business branding, enhance your home interior, or create a memorable event setup, Kustom Neons Falkirk delivers bespoke solutions. Their personalized approach and commitment to customer satisfaction make them a trusted partner for unique and impactful signage."
+    ],
+    clients: "Freelance Project",
+    category: "CMS - Shopify",
+    link: "https://kustomneonsfalkirk.co.uk/"
+  },
+  {
+    id: 14,
+    images: ["featured-image-16.jpg"],
+    title: "The Yoga Tree Mat: Premium Eco-Friendly Yoga Mats",
+    about: "The Yoga Tree Mat offers sustainable, eco-friendly yoga mats designed to enhance your practice with comfort and durability.",
+    paragraphs: [
+      "The Yoga Tree Mat is committed to supporting mindful and eco-conscious lifestyles by offering premium yoga mats made from sustainable and non-toxic materials. These mats are thoughtfully crafted to provide a superior grip and cushioning, enhancing every yoga session with comfort and stability.",
+      "The brand believes that a high-quality yoga mat is essential for a fulfilling practice. Each mat is designed to withstand rigorous use while maintaining its shape and functionality. The combination of durability and comfort makes these mats an excellent choice for both beginners and seasoned yoga practitioners.",
+      "Beyond just providing mats, The Yoga Tree Mat encourages a lifestyle of balance and respect for the environment. Their commitment to sustainability and quality has made them a trusted name among yoga enthusiasts seeking products that align with their values."
+    ],
+    clients: "Freelance Project",
+    category: "CMS - Shopify",
+    link: "https://www.theyogatreemat.com/"
+  },
+  {
+    id: 15,
+    images: ["featured-image-17.jpg"],
+    title: "Luca + Danni: Handcrafted Jewelry with Meaning",
+    about: "Luca + Danni creates meaningful, handcrafted jewelry that celebrates individuality and life's special moments.",
+    paragraphs: [
+      "Luca + Danni is a brand that believes in the power of meaningful jewelry. Their artisan-crafted pieces are designed to celebrate individuality and commemorate life's special moments. From beautifully crafted bracelets to elegant necklaces, each piece is a work of art with a story to tell.",
+      "What sets Luca + Danni apart is their commitment to quality and craftsmanship. Every piece is carefully handcrafted with precision and care, ensuring that it not only looks stunning but also holds lasting value. The brand takes pride in creating jewelry that resonates emotionally with its wearers.",
+      "Whether you're looking for a thoughtful gift or a personal keepsake, Luca + Danni offers a wide range of options that blend elegance and personal meaning. Their dedication to craftsmanship and storytelling makes them a favorite among those who appreciate jewelry with heart and soul."
+    ],
+    clients: "Freelance Project",
+    category: "CMS - Shopify",
+    link: "https://www.lucadanni.com"
+  },
+  {
+    id: 16,
+    images: ["featured-image-79.jpg"],
+    title: "Blue Light Barrier: Stylish Blue Light Glasses",
+    about: "Blue Light Barrier provides stylish and protective eyewear designed to shield your eyes from harmful blue light emissions.",
+    paragraphs: [
+      "Blue Light Barrier offers a chic and functional solution to the modern-day problem of screen-induced eye strain. Their stylish blue light glasses are designed to protect your eyes from harmful blue light emissions while keeping you fashionable.",
+      "The brand understands the importance of blending style with functionality. With a variety of frame designs and color options, customers can find the perfect pair to complement their look. The lightweight and comfortable design ensures that you can wear these glasses all day without discomfort.",
+      "Whether you're working long hours in front of a computer, gaming, or simply browsing your phone, Blue Light Barrier glasses provide essential protection. Their commitment to quality and customer satisfaction makes them a must-have accessory for anyone seeking to maintain eye health while staying stylish."
+    ],
+    clients: "Freelance Project",
+    category: "CMS - Shopify",
+    link: "https://www.bluelightbarrier.com"
+  },
+  {
+    id: 17,
+    images: ["featured-image-80.jpg"],
+    title: "Experience Fresh: Inspiring Culinary Creations",
+    about: "Experience Fresh provides expert culinary tips, inspiring recipes, and resources to elevate your cooking adventures.",
+    paragraphs: [
+      "Experience Fresh is your go-to destination for culinary inspiration, offering a treasure trove of creative recipes, expert cooking tips, and product recommendations. Whether you're a beginner in the kitchen or a seasoned chef, this platform empowers you to create delicious meals with confidence.",
+      "The brand focuses on making cooking accessible, fun, and rewarding for everyone. With easy-to-follow recipes and thoughtful insights, Experience Fresh helps home cooks elevate their skills and explore new flavors.",
+      "Whether it's a special occasion or everyday meal planning, Experience Fresh is dedicated to fostering a love for cooking. Their curated collection of content makes it easier than ever to discover and enjoy the joy of food preparation."
+    ],
+    clients: "Freelance Project",
+    category: "CMS - WordPress",
+    link: "https://experiencefresh.com/"
+  },
+  {
+    id: 18,
+    images: ["featured-image-81.jpg"],
+    title: "Navion Senior Solutions: Compassionate Senior Care",
+    about: "Navion Senior Solutions provides personalized care and living options designed to enhance the lives of seniors.",
+    paragraphs: [
+      "Navion Senior Solutions is dedicated to providing compassionate and tailored care solutions for seniors. Their range of services includes independent living, assisted living, memory care, and respite care, all designed to meet the diverse needs of aging individuals.",
+      "With a focus on dignity and respect, Navion creates nurturing environments where seniors can thrive physically, mentally, and socially. Their expert staff is trained to provide personalized care that promotes health and happiness.",
+      "Navion Senior Solutions is a trusted partner for families seeking high-quality care for their loved ones. Their commitment to excellence and compassionate service makes them a leader in senior care."
+    ],
+    clients: "Freelance Project",
+    category: "CMS - WordPress",
+    link: "https://navionseniorsolutions.com/"
+  },
+  {
+    id: 19,
+    images: ["featured-image-82.jpg"],
+    title: "CarterCo Plumbing: Expert Plumbing Solutions",
+    about: "CarterCo Plumbing offers professional plumbing services for residential and commercial clients in Australia.",
+    paragraphs: [
+      "CarterCo Plumbing is a trusted name in the Australian plumbing industry, offering a wide range of services, including repairs, installations, and maintenance for both residential and commercial properties.",
+      "The brand is known for its team of highly skilled and certified plumbers who are dedicated to delivering prompt and reliable solutions. From emergency repairs to complex installations, CarterCo Plumbing handles every job with precision and care.",
+      "Their commitment to customer satisfaction and high-quality service has made them a preferred choice for clients seeking dependable plumbing solutions. CarterCo Plumbing ensures that your plumbing systems run smoothly and efficiently."
+    ],
+    clients: "Freelance Project",
+    category: "CMS - WordPress",
+    link: "https://cartercoplumbing.com.au/"
+  },
+  {
+    id: 20,
+    images: ["featured-image-83.jpg"],
+    title: "Zayra Dental: Comprehensive Dental Care",
+    about: "Zayra Dental provides high-quality dental services designed to promote optimal oral health for patients of all ages.",
+    paragraphs: [
+      "Zayra Dental is committed to delivering comprehensive and personalized dental care services in a comfortable and friendly environment. From routine check-ups to advanced dental procedures, they cater to the diverse needs of their patients.",
+      "The clinic is equipped with state-of-the-art technology and staffed by experienced dental professionals who prioritize patient care and comfort. Their range of services includes preventive care, cosmetic dentistry, and restorative treatments.",
+      "Zayra Dental's dedication to excellence and patient satisfaction has earned them a reputation as a trusted provider of dental care in the community. They help patients achieve healthy and beautiful smiles that last a lifetime."
+    ],
+    clients: "Freelance Project",
+    category: "CMS - WordPress",
+    link: "https://zayradental.co.uk/"
+  },
+  {
+    id: 21,
+    images: ["featured-image-84.jpg"],
+    title: "Fast Line Insurance: Comprehensive Coverage Solutions",
+    about: "Fast Line Insurance offers personalized insurance plans designed to protect your assets and provide peace of mind.",
+    paragraphs: [
+      "Fast Line Insurance specializes in providing comprehensive and customized insurance solutions to meet the diverse needs of individuals and businesses. Their range of products includes auto, home, health, and commercial insurance.",
+      "The brand is dedicated to simplifying the insurance process, making it easier for clients to find the right coverage at competitive rates. Their team of experienced professionals works closely with clients to assess their needs and recommend suitable plans.",
+      "Fast Line Insurance is known for its exceptional customer service and commitment to delivering reliable protection. They help clients navigate the complexities of insurance and ensure they are well-protected against unexpected events."
+    ],
+    clients: "Freelance Project",
+    category: "CMS - WordPress",
+    link: "https://fastlineinsurance.com/"
+  },
+  {
+    id: 22,
+    images: ["featured-image-85.jpg"],
+    title: "Bubble Games: Fun and Engaging Gaming Experiences",
+    about: "Bubble Games offers a wide selection of fun and engaging games designed for players of all ages.",
+    paragraphs: [
+      "Bubble Games is a platform dedicated to providing fun and engaging gaming experiences for players of all ages. Their collection includes a variety of games that are designed to entertain and challenge players.",
+      "The brand focuses on creating interactive and visually appealing games that capture the imagination. Whether you're looking for casual entertainment or a more competitive gaming experience, Bubble Games has something for everyone.",
+      "Bubble Games is committed to enhancing the gaming experience by constantly updating their collection with new and exciting titles. They are a go-to destination for anyone seeking entertainment and fun."
+    ],
+    clients: "Freelance Project",
+    category: "CMS - WordPress",
+    link: "https://bubblegames.com.au/"
+  },
+  // {
+  //   id: 23,
+  //   images: ["featured-image-86.jpg"],
+  //   title: "Fun Fitness Littlies: Fitness for Young Kids",
+  //   about: "Fun Fitness Littlies offers engaging fitness programs designed to promote health and wellness for young children.",
+  //   paragraphs: [
+  //     "Fun Fitness Littlies is dedicated to promoting health and wellness for young children through fun and engaging fitness programs. Their activities are designed to encourage physical activity, improve motor skills, and boost confidence in a supportive environment.",
+  //     "The brand's innovative approach makes fitness enjoyable for kids, helping them develop healthy habits from an early age. With a focus on creativity and engagement, Fun Fitness Littlies offers a variety of classes and programs tailored to different age groups.",
+  //     "Parents trust Fun Fitness Littlies for its safe, educational, and entertaining approach to fitness. The brand's commitment to nurturing healthy lifestyles makes it a valuable resource for families seeking fun and active experiences for their children."
+  //   ],
+  //   clients: "Freelance Project",
+  //   category: "CMS - WordPress",
+  //   link: "https://funfitness41ittlies.com/"
+  // },
+  {
+    id: 23,
+    images: ["featured-image-87.jpg"],
+    title: "Bancroft Construction: Expert Construction Solutions",
+    about: "Bancroft Construction provides professional construction services for residential, commercial, and industrial projects.",
+    paragraphs: [
+      "Bancroft Construction is a trusted provider of expert construction services, delivering high-quality solutions for residential, commercial, and industrial projects. Their team of experienced professionals handles every aspect of construction, from design and planning to execution and project management.",
+      "The brand is known for its commitment to quality, safety, and customer satisfaction. With a focus on innovation and efficiency, Bancroft Construction delivers projects that meet and exceed client expectations.",
+      "Whether it's a small renovation or a large-scale development, Bancroft Construction ensures that every project is completed on time, within budget, and to the highest standards. Their dedication to excellence has earned them a reputation as a reliable and trusted construction partner."
+    ],
+    clients: "Freelance Project",
+    category: "CMS - WordPress",
+    link: "https://bancroftconstruction.com/"
+  }
 
 ];
