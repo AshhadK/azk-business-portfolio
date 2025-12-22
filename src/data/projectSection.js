@@ -547,21 +547,7 @@ expertise in specific subjects and indicate the areas they can travel to, facili
     category: "CMS - WordPress",
     link: "https://bubblegames.com.au/"
   },
-  // {
-  //   id: 23,
-  //   images: ["featured-image-86.jpg"],
-  //   title: "Fun Fitness Littlies: Fitness for Young Kids",
-  //   about: "Fun Fitness Littlies offers engaging fitness programs designed to promote health and wellness for young children.",
-  //   paragraphs: [
-  //     "Fun Fitness Littlies is dedicated to promoting health and wellness for young children through fun and engaging fitness programs. Their activities are designed to encourage physical activity, improve motor skills, and boost confidence in a supportive environment.",
-  //     "The brand's innovative approach makes fitness enjoyable for kids, helping them develop healthy habits from an early age. With a focus on creativity and engagement, Fun Fitness Littlies offers a variety of classes and programs tailored to different age groups.",
-  //     "Parents trust Fun Fitness Littlies for its safe, educational, and entertaining approach to fitness. The brand's commitment to nurturing healthy lifestyles makes it a valuable resource for families seeking fun and active experiences for their children."
-  //   ],
-  //   clients: "Freelance Project",
-  //   category: "CMS - WordPress",
-  //   link: "https://funfitness41ittlies.com/"
-  // },
-  {
+    {
     id: 23,
     images: ["featured-image-87.jpg"],
     title: "Bancroft Construction: Expert Construction Solutions",
@@ -574,6 +560,166 @@ expertise in specific subjects and indicate the areas they can travel to, facili
     clients: "Freelance Project",
     category: "CMS - WordPress",
     link: "https://bancroftconstruction.com/"
+  },
+    {
+    id: 24,
+    images: ["featured-image-54.jpg"],
+    title: "Attendance Management System",
+    about: "Attendance Management System is a software solution designed to help organizations track and manage employee attendance efficiently.",
+    paragraphs: [
+      "Crafting user-centric interfaces is my passion. Using Illustrator, Figma, and Adobe XD, I design visually appealing graphics and seamless layouts. Illustrator refines intricate details, Figma facilitates collaborative prototyping, and Adobe XD brings designs to life with interactive prototypes. Join me in creating digital experiences where innovation meets aesthetic precision.",
+      "Prototyping is where ideas come to life. With Illustrator, Figma, and Adobe XD, I seamlessly transition from graphic elements to interactive designs. Illustrator ensures detailed graphics, Figma streamlines collaborative prototyping, and Adobe XD transforms static designs into engaging prototypes. Explore the fusion of creativity and functionality in the realm of prototyping, where every click tells a story of design evolution.",
+      "In our Flutter app, the primary aim is to create a seamless and user-friendly experience for students seeking job opportunities. The app consists of multiple pages to gather detailed information about the users and their career preferences.",
+      "The journey begins with a login/signup page where users create their accounts by providing a unique username and password. To ensure account security, a confirmation email is sent for activation.",
+      "Upon successful login, users navigate to the second page to furnish their personal and professional details. This includes their name, age, specialization, education level, and location. Additionally, users can input links to their CV, LinkedIn, Twitter, YouTube, Github, Instagram, and any other platform showcasing their technical skills.",
+      "Moving on to the third page, we employ a more visual approach. Users are presented with a set of images representing various aspects of their ideal workplace, job role, and an additional task they would willingly perform for their employer without cost.",
+      "The final page delves into the user's future aspirations. Users articulate their plans for the next five years, providing a comprehensive understanding of their career trajectory.",
+      "In summary, our app not only captures the basic demographic and professional information but also delves into the user's preferences and long-term goals. This multifaceted approach ensures that employers accessing this data gain a holistic view of each candidate. The app is designed to be intuitive, secure, and tailored to the unique needs of job-seeking students."
+    ],
+    clients: "Freelance Project",
+    category: "CMS - WordPress",
+    link: "https://bubblegames.com.au/"
+  },
+    
+    {
+    id: 25,
+    images: ["featured-image-90.jpg"],
+    title: "Humsafar Forever Love",
+    about: "A matrimonial matchmaking platform",
+    paragraphs: [
+      "Humsafar Forever Love is a matrimonial matchmaking platform that helps users find suitable life partners based on their personal preferences. The platform provides a secure, user-friendly, and reliable matchmaking experience.",
+"Users can create and manage profiles, add personal and preference-based details, and explore potential matches. The frontend is built with React JS to ensure smooth navigation and responsive design, while the backend is developed using Node JS and Express JS. MySQL is used for secure data storage and profile management, along with an admin panel for efficient platform control."
+       ],
+    clients: "Company Project",
+ 
+      category: "Web Development",
+    link: "https://humsafarforeverlove.com/",
   }
+  ,
+   {
+    id: 26,
+    images: ["featured-image-91.jpg"],
+    title: "Quantumnexa",
+    about: "Company Website.",
+    paragraphs: [
+      "QuantumNexa is a modern corporate website developed to present the company’s services, vision, and brand identity with a clean and professional design. The website is fully responsive and optimized to deliver a smooth user experience across all devices.",
+"This project was frontend-only, built using React JS. The focus was on creating reusable components, clean UI layouts, responsive design, and performance optimization. The website follows modern design practices and is structured to be SEO-friendly."
+    ],
+    clients: "Company Project",
+ 
+      category: "Web Development",
+    link: "https://quantumnexa.com/",
+  },
+   {
+    id: 27,
+    images: ["featured-image-92.jpg"],
+    title: "Genvita",
+    about: "Company Website.",
+    paragraphs: [
+      "Genvita Cosmetology is a modern skincare and beauty brand dedicated to enhancing natural beauty through safe, effective, and science-based formulations.",
+      "Our products are carefully developed to support healthy skin and hair, using high-quality ingredients suitable for all skin types.",
+      "At Genvita, we focus on quality, safety, and visible results, offering dermatologically tested and cruelty-free beauty solutions you can trust."
+    ],
+    clients: "Genvita",
+ 
+      category: "Web Development",
+    link: "https://www.genvitapak.com/",
+  },
+   {
+    id: 28,
+    images: ["featured-image-93.jpg"],
+    title: "Abzai",
+    about: "Company Website.",
+    paragraphs: [
+      "Abzaipk (also branded as ABZAI™) is a lifestyle and fragrance brand offering premium perfumes and scent products designed to reflect elegance, confidence, and personal style. The brand focuses on delivering long‑lasting fragrances that are crafted for everyday wear with nationwide delivery across Pakistan.",
+      "Our collection includes unique and memorable scents inspired by luxury perfumes, made to help you feel confident and refreshed throughout the day. Each fragrance is carefully developed to combine timeless notes with a modern touch, suitable for both men and women.",
+      "At Abzaipk, our mission is to provide high‑quality, affordable fragrances that make everyday life more expressive and enjoyable, backed by easy online shopping and delivery services.",
+      "Abzaipk (ABZAI™) is a premium fragrance brand offering long‑lasting, elegant scents with nationwide delivery across Pakistan."
+    ],
+    clients: "Abzai",
+ 
+      category: "Web Development",
+    link: "https://abzaipk.com/",
+  },
+   {
+    id: 29,
+    images: ["featured-image-94.jpg"],
+    title: "MB Enterprize",
+    about: "Company Website.",
+    paragraphs: [
+      "MB Enterprize is an online home décor store dedicated to bringing stylish and modern decorative solutions to homes across Pakistan. We specialize in premium acrylic mirror wall décor and creative décor pieces that elevate your living space with elegance and personality.",
+      "Our collection features a variety of eye‑catching wall art, mirror stickers, geometric designs, and themed décor items designed to add charm, depth, and modern flair to every room. Each product is selected for its quality, aesthetic appeal, and ability to transform ordinary walls into inspiring focal points.",
+      "At MB Enterprize, we are committed to offering beautiful, affordable, and high‑quality décor options that help you personalize your home with style and creativity.",
+      "MB Enterprize is a home décor brand offering stylish acrylic mirror wall décor and decorative pieces designed to enhance interior spaces with modern elegance."
+    ],
+    clients: "MB Enterprize",
+ 
+      category: "Web Development",
+    link: "https://mbenterprize.com/",
+  },
+   {
+    id: 30,
+    images: ["featured-image-95.jpg"],
+    title: "BN Traders",
+    about: "Company Website.",
+    paragraphs: [
+      "BN Traders is a versatile online store in Pakistan offering a wide range of everyday products including tumblers, home décor, kitchen essentials, storage solutions, organizers, and lifestyle accessories. The brand focuses on quality, variety, and customer convenience, making it easy to shop for useful and stylish items in one place.",
+      "We provide a curated selection of practical and trendy products designed to make daily life more efficient and enjoyable. From vacuum-insulated tumblers and travel mugs to household organizers and travel bags, BN Traders brings functional style to your home and lifestyle needs.",
+      "Our goal is to deliver quality products with excellent customer service and free delivery on orders above a set value, ensuring a smooth and satisfying shopping experience for customers across Pakistan.",
+      "BN Traders is an online lifestyle store in Pakistan offering quality home, kitchen, travel, and daily use products with a focus on variety, value, and customer satisfaction."
+    ],
+    clients: "BN Traders",
+ 
+      category: "Web Development",
+    link: "https://bntraders.pk/",
+  },
+
+   {
+    id: 31,
+    images: ["featured-image-96.jpg"],
+    title: "Luxxesh",
+    about: "Home Decor & Acrylic",
+    paragraphs: [
+     " Luxxesh is a home décor brand dedicated to transforming ordinary spaces into elegant and stylish environments with premium, eye-catching décor products. Our mission is to bring sophistication and charm to your home through unique, high-quality wall décor pieces designed for modern living. ",
+
+"We offer a curated collection of acrylic mirror wall décor, geometric designs, decorative accents, and more that instantly elevate interiors with a luxurious touch. Every piece is crafted with attention to detail, ensuring durability, beauty, and a refined finish.",
+"At Luxxesh, we combine premium quality, affordable pricing, and excellent customer support to make your décor shopping experience seamless and rewarding. With free delivery across Pakistan, we aim to bring elegance right to your doorstep.",
+    ],
+    clients: "Luxxesh",
+ 
+      category: "Web Development",
+    link: "https://luxxesh.com/",
+  },
+  {
+    id: 32,
+    images: ["featured-image-97.jpg"],
+    title: "Whitening Recipe",
+    about: "Skincare Product",
+    paragraphs: [
+      "Whitening Recipe is a premium skincare brand dedicated to enhancing natural beauty through safe, effective, and science-backed formulations.",
+      "Our products are carefully designed to improve skin health, hydration, and glow by combining advanced dermatological research with high-quality ingredients.",
+  "At Whitening Recipe, we believe in gentle yet powerful skincare, offering dermatologist-tested solutions that deliver visible results without compromising skin safety.",
+        ],
+    clients: "Whitening Recipe",
+ 
+      category: "Web Development",
+    link: "https://whiteningrecipe.store/",
+  },
+ 
+  {
+    id: 33,
+    images: ["featured-image-98.jpg"],
+    title: "Elara",
+    about: "Skincare Product",
+    paragraphs: [
+      "Elara Skin is a modern skincare brand focused on giving you clear, healthy, and glowing skin.",
+"We combine advanced dermatological research with natural ingredients to create products that are safe and effective for everyday use.",
+"Our formulations are dermatologist-tested and free from harsh chemicals, designed to nourish and enhance your skin with visible results.",
+    ],
+    clients: "Elara",
+ 
+      category: "Web Development",
+    link: "https://www.elara.skin/",
+  },
 
 ];

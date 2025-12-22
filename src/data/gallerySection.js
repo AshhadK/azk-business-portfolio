@@ -12,21 +12,21 @@ const items2 = [
     id: 2,
     image: "2.jpg",
     title: "The Datayard",
-    tagline: "Web Development ",
+    tagline: "Web Development",
     filter: ["all", "web-development", "wordpress"],
   },
   {
     id: 3,
     image: "3.jpg",
     title: "Movie Finder",
-    tagline: "Web Development ",
+    tagline: "Web Development",
     filter: ["all", "web-development"],
   },
   {
     id: 4,
     image: "4.jpg",
     title: "Teach Mate",
-    tagline: "Web Development ",
+    tagline: "Web Development",
     filter: ["all", "web-development"],
   },
   {
@@ -36,7 +36,6 @@ const items2 = [
     tagline: "Plugin Development",
     filter: ["all", "web-development", "plugin-development"],
   },
-
   {
     id: 6,
     image: "6.jpg",
@@ -65,7 +64,6 @@ const items2 = [
     tagline: "Mobile Development",
     filter: ["all", "mobile-development", "prototype"],
   },
-
   {
     id: 10,
     image: "10.jpg",
@@ -73,8 +71,6 @@ const items2 = [
     tagline: "Mobile Development",
     filter: ["all", "mobile-development"],
   },
-
-
   {
     id: 11,
     image: "11.jpg",
@@ -122,56 +118,49 @@ const items2 = [
     image: "17.jpg",
     title: "Experience Fresh",
     tagline: "wordpress",
-    filter: ["all", "wordpress"]
+    filter: ["all", "wordpress"],
   },
   {
     id: 18,
     image: "18.jpg",
     title: "Navion Senior Solutions",
     tagline: "wordpress",
-    filter: ["all", "wordpress"]
+    filter: ["all", "wordpress"],
   },
   {
     id: 19,
     image: "19.jpg",
     title: "CarterCo Plumbing",
     tagline: "wordpress",
-    filter: ["all", "wordpress"]
+    filter: ["all", "wordpress"],
   },
   {
     id: 20,
     image: "20.jpg",
     title: "Zayra Dental",
     tagline: "wordpress",
-    filter: ["all", "wordpress"]
+    filter: ["all", "wordpress"],
   },
   {
     id: 21,
     image: "21.jpg",
     title: "Fast Line Insurance",
     tagline: "wordpress",
-    filter: ["all", "wordpress"]
+    filter: ["all", "wordpress"],
   },
   {
     id: 22,
     image: "22.jpg",
     title: "Bubble Games",
     tagline: "wordpress",
-    filter: ["all", "wordpress"]
+    filter: ["all", "wordpress"],
   },
-  // {
-  //   id: 23,
-  //   image: "23.jpg",
-  //   title: "Fun Fitness Littlies",
-  //   tagline: "wordpress",
-  //   filter: ["all", "wordpress"]
-  // },
   {
     id: 23,
     image: "23.jpg",
     title: "Bancroft Construction",
     tagline: "wordpress",
-    filter: ["all", "wordpress"]
+    filter: ["all", "wordpress"],
   },
   {
     id: 24,
@@ -182,16 +171,63 @@ const items2 = [
   },
   {
     id: 25,
-    image: "25.jpg",
-    title: "The Datayard",
-    tagline: "Prototype",
-    filter: ["all", "prototype"],
+    image: "26.jpg",
+    title: "Humsafar Forever Love",
+    tagline: "Web Development",
+    filter: ["all", "web-development"],
   },
-
-
-
-
+  {
+    id: 26,
+    image: "27.jpg",
+    title: "Quantumnexa",
+    tagline: "Web Development",
+    filter: ["all", "web-development"],
+  },
+  {
+    id: 27,
+    image: "28.jpg",
+    title: "Genvita",
+    tagline: "shopify",
+    filter: ["all", "shopify"],
+  },
+    {
+    id: 28,
+    image: "29.jpg",
+    title: "Abzai",
+    tagline: "shopify",
+    filter: ["all", "shopify"],
+  },
+     {
+    id: 29,
+    image: "30.jpg",
+    title: "Abzai",
+    tagline: "shopify",
+    filter: ["all", "shopify"],
+  },
+  {
+    id: 30,
+    image: "31.jpg",
+    title: "BN Traders",
+    tagline: "shopify",
+    filter: ["all", "shopify"],
+  },
+    {
+    id: 31,
+    image: "32.jpg",
+    title: "Luxxesh",
+    tagline: "shopify",
+    filter: ["all", "shopify"],
+  },  {
+    id: 32,
+    image: "33.jpg",
+    title: "Whitening Recipe",
+    tagline: "shopify",
+    filter: ["all", "shopify"],
+  },
+  
 ];
+
+  
 
 // const gallerySection = {
 //   title: "Our work showcase",
