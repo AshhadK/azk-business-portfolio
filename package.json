@@ -15,7 +15,7 @@
     "react-helmet": "^6.1.0",
     "react-icons": "^5.2.1",
     "react-loader-spinner": "^6.1.6",
-    "react-masonry-component": "^6.3.0",
+    "react-masonry-css": "^1.0.16",
     "react-router-dom": "^6.23.1",
     "react-scripts": "^5.0.1",
     "react-scroll": "^1.9.0",
@@ -53,9 +53,5 @@
     "css-loader": "^7.1.2",
     "postcss-loader": "^8.1.1",
     "source-map-loader": "^5.0.0"
-  },
-  "resolutions": {
-    "react": "^18.3.1",
-    "react-masonry-component": "^6.3.0"
   }
 }

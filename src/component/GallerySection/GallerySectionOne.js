@@ -2,16 +2,13 @@ import { gallerySectionOne } from "../../data/gallerySection";
 import useActive from "../../hooks/useActive";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
-import Masonry from "react-masonry-component";
+import Masonry from "react-masonry-css";
 import GalleryItem from "./GalleryItem";
 
-const masonryOptions = {
-  transitionDuration: 500,
-  // breakpointCols: {
-  //   default: 3,
-  //   1100: 2,
-  //   700: 1,
-  // },
+const masonryBreakpoints = {
+  default: 3,
+  1100: 2,
+  700: 1,
 };
 
 const { title, tabBtns, items } = gallerySectionOne;
@@ -64,8 +61,9 @@ const GallerySectionOne = ({ portfolio = false, similar = false }) => {
             )}
           </div>
           <Masonry
-            options={masonryOptions}
-            className="row position-relative filter-list"
+            breakpointCols={masonryBreakpoints}
+            className="row position-relative filter-list masonry-grid"
+            columnClassName="col-lg-4 col-md-6 masonry-grid_column"
           >
             {currentItems.slice(similar ? 3 : 0).map((item) => (
               <GalleryItem item={item} key={item.id} />

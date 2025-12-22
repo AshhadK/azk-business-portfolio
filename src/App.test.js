@@ -1,8 +1,30 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import React from "react";
+import { render, screen } from "@testing-library/react";
 
-test('renders learn react link', () => {
+jest.mock("./pages/Home", () => {
+  const HomeMock = () => <div>Home Page</div>;
+  return HomeMock;
+});
+jest.mock("./pages/About", () => {
+  const AboutMock = () => <div>About Page</div>;
+  return AboutMock;
+});
+jest.mock("./pages/Portfolio", () => {
+  const PortfolioMock = () => <div>Portfolio Page</div>;
+  return PortfolioMock;
+});
+jest.mock("./pages/PortfolioDetails", () => {
+  const PortfolioDetailsMock = () => <div>Portfolio Details Page</div>;
+  return PortfolioDetailsMock;
+});
+jest.mock("./pages/Services", () => {
+  const ServicesMock = () => <div>Services Page</div>;
+  return ServicesMock;
+});
+
+import App from "./App";
+
+test("renders home route", () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  expect(screen.getByText("Home Page")).toBeInTheDocument();
 });

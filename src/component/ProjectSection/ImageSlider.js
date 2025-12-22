@@ -1,33 +1,30 @@
-import React from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import { Image } from "react-bootstrap";
-import { useState, useEffect } from 'react';
 
 
 const ImageSlider = ({ images }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     // Function to go to the next image
-    const nextImage = () => {
+    const nextImage = useCallback(() => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    };
+    }, [images.length]);
 
     // Function to go to the previous image
-    const prevImage = () => {
+    const prevImage = useCallback(() => {
         setCurrentIndex(
             (prevIndex) => (prevIndex - 1 + images.length) % images.length
         );
-    };
+    }, [images.length]);
 
     // Autoplay functionality
     useEffect(() => {
         if (images.length > 1) {
-            const intervalId = setInterval(() => {
-                nextImage();
-            }, 3000); // Change image every 3 seconds
+            const intervalId = setInterval(nextImage, 3000); // Change image every 3 seconds
 
             return () => clearInterval(intervalId);
         }
-    }, [nextImage, images.length]);
+    }, [images.length, nextImage]);
 
     return (
         <div className="image-slider-container">
