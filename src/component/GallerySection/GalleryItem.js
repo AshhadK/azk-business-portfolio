@@ -1,17 +1,12 @@
 import { Link } from "react-router-dom";
 import React from "react";
-import { Col, Image } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 
 const GalleryItem = ({ item = {} }) => {
   const { image, title, tagline, filter, id } = item; // Add id to destructuring
-
+ 
   return (
-    <Col
-      lg={4}
-      md={6}
-      sm={12}
-      className={`gallery-item position-absolute ${filter.join(" ")}`}
-    >
+    <div className={`gallery-item ${filter.join(" ")}`}>
       <div className="inner-box">
         <figure className="image">
           <Image
@@ -35,7 +30,7 @@ const GalleryItem = ({ item = {} }) => {
           </div>
         </div>
       </div>
-    </Col>
+    </div>
   );
 };
 

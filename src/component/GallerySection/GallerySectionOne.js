@@ -62,8 +62,8 @@ const GallerySectionOne = ({ portfolio = false, similar = false }) => {
           </div>
           <Masonry
             breakpointCols={masonryBreakpoints}
-            className="row position-relative filter-list masonry-grid"
-            columnClassName="col-lg-4 col-md-6 masonry-grid_column"
+            className="masonry-grid"
+            columnClassName="masonry-grid_column"
           >
             {currentItems.slice(similar ? 3 : 0).map((item) => (
               <GalleryItem item={item} key={item.id} />
