@@ -224,6 +224,27 @@ const items2 = [
     tagline: "shopify",
     filter: ["all", "shopify"],
   },
+   {
+    id: 33,
+    image: "34.jpg",
+    title: "Chanova Design",
+    tagline: "wix",
+    filter: ["all", "wix"],
+  },
+  {
+    id: 34,
+    image: "35.jpg",
+    title: "Guardisse",
+    tagline: "wix",
+    filter: ["all", "wix"],
+  },
+   {
+    id: 35,
+    image: "36.jpg",
+    title: "Contractor Supply Co.",
+    tagline: "wordpress",
+    filter: ["all", "wordpress"],
+  },
   
 ];
 
@@ -344,6 +365,11 @@ export const gallerySectionOne = {
       id: 6,
       name: "Shopify",
       tab: "shopify",
+    },
+    {
+      id: 7,
+      name: "Wix",
+      tab: "wix",
     },
 
   ],

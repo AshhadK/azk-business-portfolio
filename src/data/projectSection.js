@@ -670,7 +670,7 @@ expertise in specific subjects and indicate the areas they can travel to, facili
     ],
     clients: "BN Traders",
  
-      category: "Web Development",
+    category: "CMS - Shopify",
     link: "https://bntraders.pk/",
   },
 
@@ -687,7 +687,7 @@ expertise in specific subjects and indicate the areas they can travel to, facili
     ],
     clients: "Luxxesh",
  
-      category: "Web Development",
+      category: "CMS - Shopify",
     link: "https://luxxesh.com/",
   },
   {
@@ -702,7 +702,7 @@ expertise in specific subjects and indicate the areas they can travel to, facili
         ],
     clients: "Whitening Recipe",
  
-      category: "Web Development",
+      category: "CMS - Shopify",
     link: "https://whiteningrecipe.store/",
   },
  
@@ -718,8 +718,49 @@ expertise in specific subjects and indicate the areas they can travel to, facili
     ],
     clients: "Elara",
  
-      category: "Web Development",
+      category: "CMS - Shopify",
     link: "https://www.elara.skin/",
+  },
+   {
+    id: 34,
+    images: ["featured-image-99.jpg"],
+    title: "Chanova Design",
+    about: "Interior Design Studio",
+    paragraphs: [
+      "Designed and developed a modern, elegant website for Chanova Design, a California-based boutique interior design studio. The website showcases the studio’s restorative design philosophy, featured projects, design services, and end-to-end interior design process.",
+      "The website focuses on creating a premium and calming digital experience that reflects Chanova Design’s approach to intentional, functional, and wellness-oriented interiors. It presents services ranging from design consultations and curated design packages to full-service design implementation and construction management.",
+    ],
+    clients: "Upwork Outsource",
+ 
+    category: "CMS - Wix",
+    link: "https://chanovadesign.com/",
+  },
+  {
+    id: 35,
+    images: ["featured-image-100.jpg"],
+    title: "Guardisse",
+    about: "Fashion E-commerce Store",
+    paragraphs: [
+      "Designed and developed a modern e-commerce website for Guardisse, a lifestyle fashion brand specializing in stylish and functional wristlets and wrist wallets. The website provides customers with a seamless shopping experience while showcasing the brand’s collections, product offerings, lifestyle content, and unique design philosophy.",
+      "The website combines a clean, premium visual aesthetic with e-commerce functionality, including product collections, promotional sections, blog content, gift cards, customer FAQs, and responsive navigation to create an engaging online shopping experience.",
+    ],
+    clients: "Upwork Outsource",
+    category: "CMS - Wix",
+    link: "https://www.guardisse.com/",
+  },
+  {
+    id: 36,
+    images: ["featured-image-101.jpg"],
+    title: "Contractor Supply Co.",
+    about: "B2B Construction Supply ",
+    paragraphs: [
+      "Designed and developed a modern B2B e-commerce website for Contractor Supply Co., a construction supply company serving contractors, builders, remodelers, property managers, and multifamily professionals.",
+      "The platform allows customers to browse and order construction materials including cabinetry, plumbing fixtures, interior finishes, electrical products, door hardware, doors, trim, and related supplies. It also features a secure client portal, real-time inventory availability, online payments, order tracking, saved lists, and scheduled warehouse pickup.",
+      "The website was designed to provide contractors with a fast, reliable, and streamlined procurement experience while maintaining a professional and industry-focused digital presence.",
+    ],
+    clients: "Upwork Outsource",
+    category: "CMS - WordPress",
+    link: "https://contractorsupplyco.com/",
   },
 
 ];

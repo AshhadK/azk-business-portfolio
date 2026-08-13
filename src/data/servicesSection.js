@@ -37,6 +37,12 @@ const services = [
     title: "Creative Asset\nDesign",
     text: "Design high-quality assets tailored for web and app development",
   },
+  {
+    id: 7,
+    icon: "flaticon-responsive",
+    title: "Wix\nDevelopment",
+    text: "Beautiful Wix websites crafted for performance, flexibility, and growth.",
+  },
 ];
 
 const tech = [
@@ -102,8 +108,8 @@ const tech = [
     icon: "https://img.icons8.com/color/128/000000/wordpress.png",
   },
   {
-    title: "Squarespace",
-    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0hYX4VS-2wuoISRfs8P4Mep8KXtF5LG9kRQ&s",
+    title: "Wix",
+    icon: "https://img.icons8.com/color/128/000000/wix.png",
   },
   {
     title: "Shopify",
@@ -177,6 +183,12 @@ export const serviceSectionThree = [
     icon: "flaticon-research",
     href: "/research-development",
     title: "Creative Asset\nDesign",
+  },
+  {
+    id: 7,
+    icon: "flaticon-responsive",
+    href: "/wix-development",
+    title: "Wix\nDevelopment",
   },
 ];
 

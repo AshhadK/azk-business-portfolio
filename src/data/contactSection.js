@@ -65,7 +65,7 @@ export const contactSection = {
 
 export const contactSectionTwo = {
   title: "Write us any message",
-  text: "Lorem Ipsum is simply proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem is simply free text quis bibendum.",
+  text: "Have a project in mind or need help bringing your ideas to life? Feel free to reach out and share your requirements. I’d love to hear from you and discuss how I can help turn your vision into a modern, functional digital experience.",
   socials: [
     "fab fa-twitter",
     "fab fa-facebook",
