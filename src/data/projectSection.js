@@ -385,20 +385,6 @@ expertise in specific subjects and indicate the areas they can travel to, facili
     title: "Safe Kiddo Gear: Safety Essentials for Kids",
     about: "Safe Kiddo Gear provides high-quality, child-safe products designed for everyday use, ensuring parents can keep their kids safe and comfortable.",
     paragraphs: [
-      "Safe Kiddo Gear specializes in offering a wide range of safe and durable products for children, from protective gear to everyday essentials.",
-      "The brand prioritizes child safety by using high-quality, non-toxic materials and ensuring all products meet safety regulations.",
-      "Parents trust Safe Kiddo Gear for its commitment to quality, affordability, and peace of mind, providing essential items that make parenting easier."
-    ],
-    clients: "Freelance Project",
-    category: "CMS - Shopify",
-    link: "https://safekiddogear.com/"
-  },
-  {
-    id: 12,
-    images: ["featured-image-14.jpg"],
-    title: "Safe Kiddo Gear: Safety Essentials for Kids",
-    about: "Safe Kiddo Gear provides high-quality, child-safe products designed for everyday use, ensuring parents can keep their kids safe and comfortable.",
-    paragraphs: [
       "Safe Kiddo Gear is a trusted destination for parents seeking high-quality products designed to keep their children safe and comfortable. From protective gear to everyday essentials, the brand offers a wide range of carefully crafted items that meet rigorous safety standards. Every product is designed with children's well-being in mind, using non-toxic materials that parents can trust.",
       "The brand’s mission goes beyond just providing products; it focuses on creating solutions that make parenting simpler and stress-free. Whether parents are looking for durable outdoor gear, ergonomic accessories, or thoughtful everyday items, Safe Kiddo Gear delivers with a focus on functionality and comfort. This commitment ensures that both kids and parents enjoy peace of mind.",
       "Parents choose Safe Kiddo Gear for its dedication to quality, affordability, and safety. With an emphasis on innovation and practicality, the brand continues to be a go-to choice for families who prioritize their children’s well-being without compromising on style or functionality."

@@ -17,29 +17,29 @@ const items2 = [
   },
   {
     id: 3,
-    image: "3.jpg",
-    title: "Movie Finder",
-    tagline: "Web Development",
-    filter: ["all", "web-development"],
-  },
-  {
-    id: 4,
-    image: "4.jpg",
-    title: "Teach Mate",
-    tagline: "Web Development",
-    filter: ["all", "web-development"],
-  },
-  {
-    id: 5,
     image: "5.jpg",
     title: "The Datayard - Plugin",
     tagline: "Plugin Development",
     filter: ["all", "web-development", "plugin-development"],
   },
   {
-    id: 6,
+    id: 4,
     image: "6.jpg",
     title: "Salezman App",
+    tagline: "Mobile Development",
+    filter: ["all", "mobile-development", "prototype"],
+  },
+  {
+    id: 5,
+    image: "8.jpg",
+    title: "BP- Yard",
+    tagline: "Mobile Development",
+    filter: ["all", "mobile-development", "prototype"],
+  },
+  {
+    id: 6,
+    image: "9.jpg",
+    title: "Jooble",
     tagline: "Mobile Development",
     filter: ["all", "mobile-development", "prototype"],
   },
@@ -52,24 +52,24 @@ const items2 = [
   },
   {
     id: 8,
-    image: "8.jpg",
-    title: "BP- Yard",
-    tagline: "Mobile Development",
-    filter: ["all", "mobile-development", "prototype"],
-  },
-  {
-    id: 9,
-    image: "9.jpg",
-    title: "Jooble",
-    tagline: "Mobile Development",
-    filter: ["all", "mobile-development", "prototype"],
-  },
-  {
-    id: 10,
     image: "10.jpg",
     title: "Test Signup-Login",
     tagline: "Mobile Development",
     filter: ["all", "mobile-development"],
+  },
+  {
+    id: 9,
+    image: "3.jpg",
+    title: "Movie Finder",
+    tagline: "Web Development",
+    filter: ["all", "web-development"],
+  },
+  {
+    id: 10,
+    image: "4.jpg",
+    title: "Teach Mate",
+    tagline: "Web Development",
+    filter: ["all", "web-development"],
   },
   {
     id: 11,
@@ -190,19 +190,19 @@ const items2 = [
     tagline: "shopify",
     filter: ["all", "shopify"],
   },
-    {
+  {
     id: 28,
     image: "29.jpg",
     title: "Abzai",
     tagline: "shopify",
     filter: ["all", "shopify"],
   },
-     {
+  {
     id: 29,
-    image: "30.jpg",
-    title: "Abzai",
-    tagline: "shopify",
-    filter: ["all", "shopify"],
+    image: "25.jpg",
+    title: "MB Enterprize",
+    tagline: "Web Development",
+    filter: ["all", "web-development"],
   },
   {
     id: 30,
@@ -211,41 +211,48 @@ const items2 = [
     tagline: "shopify",
     filter: ["all", "shopify"],
   },
-    {
+  {
     id: 31,
     image: "32.jpg",
     title: "Luxxesh",
     tagline: "shopify",
     filter: ["all", "shopify"],
-  },  {
+  },
+  {
     id: 32,
     image: "33.jpg",
     title: "Whitening Recipe",
     tagline: "shopify",
     filter: ["all", "shopify"],
   },
-   {
+  {
     id: 33,
+    image: "30.jpg",
+    title: "Elara",
+    tagline: "shopify",
+    filter: ["all", "shopify"],
+  },
+  {
+    id: 34,
     image: "34.jpg",
     title: "Chanova Design",
     tagline: "wix",
     filter: ["all", "wix"],
   },
   {
-    id: 34,
+    id: 35,
     image: "35.jpg",
     title: "Guardisse",
     tagline: "wix",
     filter: ["all", "wix"],
   },
-   {
-    id: 35,
+  {
+    id: 36,
     image: "36.jpg",
     title: "Contractor Supply Co.",
     tagline: "wordpress",
     filter: ["all", "wordpress"],
   },
-  
 ];
 
   
