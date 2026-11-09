@@ -193,8 +193,8 @@ export const serviceSectionThree = [
 ];
 
 export const servicesSectionOne = {
-  title: "BUILDING BETTER\nFUTURES",
-  text: "Where Excellence in Service and Comprehensive Training Come Together to Shape Perfect Solutions.",
+  title: "WHAT WE DO",
+  text: "Websites, mobile apps, UI/UX, branding, SEO, and e-commerce — we create digital solutions that help your business grow.",
   services: serviceSectionThree,
 };
 
