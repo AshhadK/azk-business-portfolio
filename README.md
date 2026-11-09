@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+# AZK Business Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A professional business portfolio website built with React, showcasing projects, skills, services, and professional experience through a clean and modern web interface.
+
+🌐 **Live Website:** [https://azk-business-portfolio.vercel.app/](https://azk-business-portfolio.vercel.app/)
+
+📂 **GitHub Repository:** [https://github.com/AshhadK/azk-business-portfolio-main](https://github.com/AshhadK/azk-business-portfolio-main)
+
+## Overview
+
+AZK Business Portfolio is a personal portfolio website developed to establish a professional online presence and showcase technical expertise, projects, and business-related information.
+
+The application is built using React and Create React App, providing a component-based architecture and a streamlined development experience.
+
+## Tech Stack
+
+- **Frontend:** React.js
+- **Language:** JavaScript
+- **Styling:** CSS
+- **Build Tool:** Create React App
+- **Package Manager:** npm
+- **Deployment:** Vercel
+- **Version Control:** Git & GitHub
+
+## Features
+
+- Professional portfolio presentation
+- Modern React-based architecture
+- Responsive web interface
+- Component-based development
+- Optimized production build
+- Live deployment through Vercel
+
+## Getting Started
+
+Follow these instructions to set up the project locally.
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- npm (included with Node.js)
+- Git
+
+### Installation
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/AshhadK/azk-business-portfolio-main.git
+```
+
+**2. Navigate to the project directory**
+
+```bash
+cd azk-business-portfolio-main
+```
+
+**3. Install dependencies**
+
+```bash
+npm install
+```
+
+**4. Start the development server**
+
+```bash
+npm start
+```
+
+The application will open at:
+
+```text
+http://localhost:3000
+```
+
+The development server automatically reloads when changes are made to the source code.
 
 ## Available Scripts
 
-In the project directory, you can run:
+| Command | Description |
+|---|---|
+| `npm start` | Runs the application in development mode. |
+| `npm test` | Launches the test runner. |
+| `npm run build` | Creates an optimized production build. |
+| `npm run eject` | Ejects Create React App configuration (one-way operation). |
 
-### `npm start`
+## Production Build
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To generate an optimized production build, run:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+npm run build
+```
 
-### `npm test`
+The production-ready files will be generated in the `build` directory.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Deployment
 
-### `npm run build`
+The application is deployed using [Vercel](https://vercel.com/).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To deploy your own version:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Fork or clone the repository.
+2. Import the repository into Vercel.
+3. Configure the build settings if required.
+4. Deploy the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+For a standard Create React App project, Vercel typically detects the framework automatically.
 
-### `npm run eject`
+## Project Links
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Live Portfolio:** [Visit Website](https://azk-business-portfolio.vercel.app/)
+- **Source Code:** [GitHub Repository](https://github.com/AshhadK/azk-business-portfolio-main)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Author
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Ashhad Zafar Khan**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Software Engineer | Web & Mobile Application Developer
 
-## Learn More
+- GitHub: [@AshhadK](https://github.com/AshhadK)
+- Portfolio: [azk-business-portfolio.vercel.app](https://azk-business-portfolio.vercel.app/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⭐ If you find this project interesting, consider giving the repository a star!
