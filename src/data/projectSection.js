@@ -579,7 +579,7 @@ expertise in specific subjects and indicate the areas they can travel to, facili
     clients: "Company Project",
  
       category: "Web Development",
-    link: "https://humsafarforeverlove.com/",
+    link: "https://humsafarforeverlove.vercel.app/",
   }
   ,
    {
