@@ -12,7 +12,7 @@ const SingleTech = ({ tech = {} }) => {
         <div className="icon-box">
           {/* Displaying the image icon from the URL */}
           <Image src={icon} alt={title} className="tech-icon" width={100} // Set width
-            height={100} />
+            height={100} loading="lazy" decoding="async" />
         </div>
         <h5>
           <a href="as">

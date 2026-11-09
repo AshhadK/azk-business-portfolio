@@ -30,7 +30,7 @@ const WeDOSection = () => {
               </div>
               <div className="featured-block clearfix">
                 <div className="image">
-                  <Image src={featuredImage} alt="" />
+                  <Image src={featuredImage} alt="" loading="lazy" decoding="async" />
                 </div>
                 <div className="text">{text}</div>
               </div>

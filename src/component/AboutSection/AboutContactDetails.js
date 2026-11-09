@@ -10,7 +10,7 @@ const AboutContactDetails = () => {
         {contactInfo.map(({ image, label, link, value }, index) => (
           <div key={index} className="contact-card">
             <Link href={link}>
-              <Image src={image} alt={label} />
+              <Image src={image} alt={label} loading="lazy" decoding="async" />
             </Link>
 
             {/* <div className="contact-label">{label}</div> */}

@@ -33,7 +33,7 @@ const MainFooter = ({ normalPadding = true }) => {
                   <div className="logo">
                     <Link href="/">
 
-                      <Image id="fLogo" src={logo} alt="" />
+                      <Image id="fLogo" src={logo} alt="" loading="lazy" decoding="async" />
 
                     </Link>
                   </div>

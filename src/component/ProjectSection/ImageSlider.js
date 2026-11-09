@@ -36,6 +36,8 @@ const ImageSlider = ({ images }) => {
                             src={require(`../../assets/images/resource/${image}`)}
                             alt={`Image ${index + 1}`}
                             className="slider-image"
+                            loading="lazy"
+                            decoding="async"
                         />
                     )
                 ))}

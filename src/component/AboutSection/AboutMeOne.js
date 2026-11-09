@@ -16,6 +16,8 @@ const AboutMeOne = () => {
                 src={image}
                 alt=""
                 fluid
+                loading="lazy"
+                decoding="async"
                 style={{
                   maxWidth: "100%", // Ensures the image doesn't exceed its container
                   borderRadius: "50%", // Makes the image circular

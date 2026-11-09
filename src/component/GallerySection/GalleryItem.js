@@ -12,6 +12,8 @@ const GalleryItem = ({ item = {} }) => {
           <Image
             src={require(`../../assets/images/gallery/${image}`)}
             alt=""
+            loading="lazy"
+            decoding="async"
           />
         </figure>
         <p className="lightbox-image overlay-box"></p>
