@@ -190,7 +190,7 @@ export const projects = [
     ],
     clients: "Semester Project",
     category: "Web Development",
-    link: "https://airline.novacare.site/",
+    link: "https://primary-avionics.infinityfree.me/",
     githubLink: "https://github.com/AshhadK/primero-avionics"
   },
   {
