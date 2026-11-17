@@ -253,6 +253,62 @@ const items2 = [
     tagline: "wordpress",
     filter: ["all", "wordpress"],
   },
+  {
+    id: 37,
+    image: "37.jpg",
+    title: "Hybrid One Construction",
+    tagline: "web development",
+    filter: ["all", "web development"],
+  },
+  {
+    id: 38,
+    image: "38.jpg",
+    title: "American Millwork & Remodel",
+    tagline: "web development",
+    filter: ["all", "web development"],
+  },
+  {
+    id: 39,
+    image: "39.jpg",
+    title: "Hybrid One Digital",
+    tagline: "web development",
+    filter: ["all", "web development"],
+  },
+  {
+    id: 40,
+    image: "40.jpg",
+    title: "Hybrid One Air",
+    tagline: "web development",
+    filter: ["all", "web development"],
+  },
+  {
+    id: 41,
+    image: "41.jpg",
+    title: "Hybrid One Electric",
+    tagline: "web development",
+    filter: ["all", "web development"],
+  },
+  {
+    id: 42,
+    image: "42.jpg",
+    title: "Hybrid One Carpentry",
+    tagline: "web development",
+    filter: ["all", "web development"],
+  },
+  {
+    id: 43,
+    image: "43.jpg",
+    title: "Hybrid One Build",
+    tagline: "web development",
+    filter: ["all", "web development"],
+  },
+  {
+    id: 44,
+    image: "44.jpg",
+    title: "Iron Gate America",
+    tagline: "web development",
+    filter: ["all", "web development"],
+  },
 ];
 
   
