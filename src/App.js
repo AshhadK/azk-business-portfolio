@@ -6,11 +6,13 @@ import ServicesMain from "./pages/Services";
 import AboutMain from "./pages/About";
 import PortfolioMain from "./pages/Portfolio";
 import PortfolioDetails from "./pages/PortfolioDetails";
+import ScrollToTop from "./component/Layout/ScrollToTop";
 
 const App = () => {
   return (
     <AppProvider>
       <Router>
+        <ScrollToTop />
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/about" exact element={<AboutMain />} />
