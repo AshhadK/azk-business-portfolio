@@ -85,6 +85,7 @@ const items2 = [
     title: "Safe Kiddo Gear",
     tagline: "shopify",
     filter: ["all", "shopify"],
+    hidden: true,
   },
   {
     id: 13,
@@ -113,6 +114,7 @@ const items2 = [
     title: "Blue Light Barrier",
     tagline: "shopify",
     filter: ["all", "shopify"],
+    hidden: true,
   },
   {
     id: 17,
@@ -120,6 +122,7 @@ const items2 = [
     title: "Experience Fresh",
     tagline: "wordpress",
     filter: ["all", "wordpress"],
+    hidden: true,
   },
   {
     id: 18,
@@ -134,6 +137,7 @@ const items2 = [
     title: "CarterCo Plumbing",
     tagline: "wordpress",
     filter: ["all", "wordpress"],
+    hidden: true,
   },
   {
     id: 20,
@@ -141,6 +145,7 @@ const items2 = [
     title: "Zayra Dental",
     tagline: "wordpress",
     filter: ["all", "wordpress"],
+    hidden: true,
   },
   {
     id: 21,
@@ -148,6 +153,7 @@ const items2 = [
     title: "Fast Line Insurance",
     tagline: "wordpress",
     filter: ["all", "wordpress"],
+    hidden: true,
   },
   {
     id: 22,
@@ -155,6 +161,7 @@ const items2 = [
     title: "Bubble Games",
     tagline: "wordpress",
     filter: ["all", "wordpress"],
+    hidden: true,
   },
   {
     id: 23,
@@ -162,6 +169,7 @@ const items2 = [
     title: "Bancroft Construction",
     tagline: "wordpress",
     filter: ["all", "wordpress"],
+    hidden: true,
   },
   {
     id: 24,
@@ -326,7 +334,7 @@ const items2 = [
     image: "47.jpg",
     title: "Companiyo",
     tagline: "Web Development",
-    filter: ["all", "web-development"],
+    filter: ["all", "wordpress"],
   },
 ];
 
