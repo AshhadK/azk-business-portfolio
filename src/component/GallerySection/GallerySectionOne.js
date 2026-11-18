@@ -11,17 +11,40 @@ const masonryBreakpoints = {
   700: 1,
 };
 
-const { title, tabBtns, items } = gallerySectionOne;
+const { title, tabBtns, items: galleryItems } = gallerySectionOne;
+
+const items = galleryItems.filter((item) => !item.hidden);
 
 const getCurrentItems = (current = "") =>
   items.filter((it) => it.filter.includes(current));
 
 const getCount = (current = "") => getCurrentItems(current).length;
 
-const GallerySectionOne = ({ portfolio = false, similar = false }) => {
+const normalizeCategory = (category = "") => {
+  const normalized = category
+    .toLowerCase()
+    .replace(/^cms\s*-\s*/, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  return normalized === "website development" ? "web development" : normalized;
+};
+
+const GallerySectionOne = ({
+  portfolio = false,
+  similar = false,
+  category = "",
+  currentId = null,
+}) => {
   const [current, setCurrent] = useState("all");
-  const currentItems = getCurrentItems(current);
+  const similarItems = items.filter(
+    (item) =>
+      item.id !== currentId &&
+      normalizeCategory(item.tagline) === normalizeCategory(category)
+  );
+  const currentItems = similar ? similarItems : getCurrentItems(current);
   const ref = useActive("#portfolio");
+
+  if (similar && similarItems.length === 0) return null;
 
   return (
     <section
@@ -65,7 +88,7 @@ const GallerySectionOne = ({ portfolio = false, similar = false }) => {
             className="masonry-grid"
             columnClassName="masonry-grid_column"
           >
-            {currentItems.slice(similar ? 3 : 0).map((item) => (
+            {currentItems.map((item) => (
               <GalleryItem item={item} key={item.id} />
             ))}
           </Masonry>

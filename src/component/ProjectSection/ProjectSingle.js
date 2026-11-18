@@ -13,7 +13,9 @@ const ProjectSingle = ({ id }) => {
 
   useEffect(() => {
     if (projects) {
-      const project = projects.find((proj) => proj.id === parseInt(id));
+      const project = projects.find(
+        (proj) => proj.id === parseInt(id) && !proj.hidden
+      );
       setProjectData(project);
     }
   }, [id]);

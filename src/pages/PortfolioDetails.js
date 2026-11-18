@@ -9,9 +9,14 @@ import GallerySectionOne from "../component/GallerySection/GallerySectionOne";
 import PostControl from "../component/PostControl/PostControl";
 import ProjectSingle from "../component/ProjectSection/ProjectSingle";
 import MobileMenu from '../component/Header/MobileMenu';
+import { projects } from "../data/projectSection";
 
 const PortfolioDetails = () => {
     const { id } = useParams();  // Extract id from URL
+    const currentId = parseInt(id, 10);
+    const project = projects.find(
+        (proj) => proj.id === currentId && !proj.hidden
+    );
 
     return (
         <Layout pageTitle="Portfolio">
@@ -20,8 +25,12 @@ const PortfolioDetails = () => {
             <MobileMenu />
             <PageBanner title="Portfolio" />
             <ProjectSingle id={id} />
-            <PostControl id={id} />
-            <GallerySectionOne similar />
+            {project && <PostControl id={id} />}
+            <GallerySectionOne
+                similar
+                category={project?.category}
+                currentId={currentId}
+            />
             <MainFooter />
         </Layout>
     );

@@ -77,6 +77,7 @@ const items2 = [
     title: "Cuirderi",
     tagline: "shopify",
     filter: ["all", "shopify"],
+    hidden: true,
   },
   {
     id: 12,
@@ -203,6 +204,7 @@ const items2 = [
     title: "MB Enterprize",
     tagline: "Web Development",
     filter: ["all", "web-development"],
+    hidden: true,
   },
   {
     id: 30,
@@ -210,6 +212,7 @@ const items2 = [
     title: "BN Traders",
     tagline: "shopify",
     filter: ["all", "shopify"],
+    hidden: true,
   },
   {
     id: 31,
@@ -224,6 +227,7 @@ const items2 = [
     title: "Whitening Recipe",
     tagline: "shopify",
     filter: ["all", "shopify"],
+    hidden: true,
   },
   {
     id: 33,

@@ -379,6 +379,7 @@ expertise in specific subjects and indicate the areas they can travel to, facili
     clients: "CodesSavvy Dev Test Task",
     category: "Website Development",
     link: "https://www.cuirderi.com/",
+    hidden: true,
 
   },
   {
@@ -644,6 +645,7 @@ expertise in specific subjects and indicate the areas they can travel to, facili
  
       category: "Web Development",
     link: "https://mbenterprize.com/",
+    hidden: true,
   },
    {
     id: 30,
@@ -660,6 +662,7 @@ expertise in specific subjects and indicate the areas they can travel to, facili
  
     category: "CMS - Shopify",
     link: "https://bntraders.pk/",
+    hidden: true,
   },
 
    {
@@ -692,6 +695,7 @@ expertise in specific subjects and indicate the areas they can travel to, facili
  
       category: "CMS - Shopify",
     link: "https://whiteningrecipe.store/",
+    hidden: true,
   },
  
   {

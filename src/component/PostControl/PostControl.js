@@ -3,12 +3,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const PostControl = ({ id }) => {
-  const totalProjects = projects.length;
-  const numericId = parseInt(id, 10);
+  const visibleIds = projects
+    .filter((project) => !project.hidden)
+    .map((project) => project.id);
+  const currentIndex = visibleIds.indexOf(parseInt(id, 10));
 
-  // Calculate previous and next IDs with wrap-around logic
-  const prevId = numericId === 1 ? totalProjects : numericId - 1;
-  const nextId = numericId === totalProjects ? 1 : numericId + 1;
+  if (currentIndex === -1) return null;
+
+  const prevId = visibleIds[(currentIndex - 1 + visibleIds.length) % visibleIds.length];
+  const nextId = visibleIds[(currentIndex + 1) % visibleIds.length];
 
   return (
     <div className="post-control">
