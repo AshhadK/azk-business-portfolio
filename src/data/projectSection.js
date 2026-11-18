@@ -876,8 +876,22 @@ expertise in specific subjects and indicate the areas they can travel to, facili
       "The store follows a clean, editorial layout with an elegant hero section and a Shop By Style area that groups the collection into tops, skirts, dresses, and outerwear, so shoppers can move straight to the style they want. Each category card pairs product imagery with a short description of the fit and fabric.",
       "The shopping experience is streamlined with search, account, wishlist, and shopping bag access in the header, while the minimal black, white, and neutral palette and refined typography give the brand a luxury feel. The fully responsive design keeps the store fast and easy to browse on every device.",
     ],
-    clients: "Upwork Client",
+    clients: "Upwork Outsource",
     category: "CMS - Shopify",
     link: "https://elevatedluxurystudio.com/",
+  },
+  {
+    id: 46,
+    images: ["featured-image-190.jpg"],
+    title: "Companiyo",
+    about: "Companionship & Conversation Service Website",
+    paragraphs: [
+      "Designed and developed a warm, approachable website for Companiyo, a companionship service that connects people with real companions for friendly phone and video conversations. The site opens with a clear promise, a real person to talk to whenever you could use some company, and guides visitors to book a session in just a few clicks.",
+      "The experience centers on the people: a Meet People section introduces each companion with a short bio, interests, and availability, so visitors can choose someone they feel comfortable talking to. A simple three-step flow of choosing, picking a time, and talking explains how sessions work, while dedicated comfort and trust sections reassure first-time visitors that every conversation is private and judgment-free.",
+      "Transparent per-conversation pricing, an option to gift a conversation to someone you love, and a detailed FAQ round out the site. A soft peach and teal palette, elegant serif typography, and generous photography give the brand a calm, human feel, and the fully responsive layout keeps booking easy on every device.",
+    ],
+    clients: "Companiyo",
+    category: "CMS - WordPress",
+    link: "",
   },
 ];

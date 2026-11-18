@@ -321,6 +321,13 @@ const items2 = [
     tagline: "shopify",
     filter: ["all", "shopify"],
   },
+  {
+    id: 46,
+    image: "47.jpg",
+    title: "Companiyo",
+    tagline: "Web Development",
+    filter: ["all", "web-development"],
+  },
 ];
 
   
