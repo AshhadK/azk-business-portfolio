@@ -197,6 +197,7 @@ const items2 = [
     title: "Abzai",
     tagline: "shopify",
     filter: ["all", "shopify"],
+    hidden: true,
   },
   {
     id: 29,
@@ -312,6 +313,13 @@ const items2 = [
     title: "Iron Gate America",
     tagline: "web development",
     filter: ["all", "web development"],
+  },
+  {
+    id: 45,
+    image: "45.jpg",
+    title: "Elevated Luxury",
+    tagline: "shopify",
+    filter: ["all", "shopify"],
   },
 ];
 

@@ -866,4 +866,18 @@ expertise in specific subjects and indicate the areas they can travel to, facili
     category: "Web Development",
     link: "https://hybrid-one-electric.vercel.app/",
   },
+  {
+    id: 45,
+    images: ["featured-image-189.jpg"],
+    title: "Elevated Luxury",
+    about: "Women's Fashion Ecommerce Store",
+    paragraphs: [
+      "Designed and developed a refined Shopify ecommerce store for Elevated Luxury, a women's fashion brand offering tailored tops, skirts, dresses, and outerwear with a focus on structured silhouettes, premium fabrics, and timeless styling.",
+      "The store follows a clean, editorial layout with an elegant hero section and a Shop By Style area that groups the collection into tops, skirts, dresses, and outerwear, so shoppers can move straight to the style they want. Each category card pairs product imagery with a short description of the fit and fabric.",
+      "The shopping experience is streamlined with search, account, wishlist, and shopping bag access in the header, while the minimal black, white, and neutral palette and refined typography give the brand a luxury feel. The fully responsive design keeps the store fast and easy to browse on every device.",
+    ],
+    clients: "Upwork Client",
+    category: "CMS - Shopify",
+    link: "https://elevatedluxurystudio.com/",
+  },
 ];
