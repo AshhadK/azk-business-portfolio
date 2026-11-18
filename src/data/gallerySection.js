@@ -231,7 +231,7 @@ const items2 = [
   },
   {
     id: 33,
-    image: "30.jpg",
+    image: "46.jpg",
     title: "Elara",
     tagline: "shopify",
     filter: ["all", "shopify"],
