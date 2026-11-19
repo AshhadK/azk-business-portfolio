@@ -191,6 +191,7 @@ const items2 = [
     title: "Quantumnexa",
     tagline: "Web Development",
     filter: ["all", "web-development"],
+    hidden: true,
   },
   {
     id: 27,
@@ -335,6 +336,13 @@ const items2 = [
     title: "Companiyo",
     tagline: "Web Development",
     filter: ["all", "wordpress"],
+  },
+  {
+    id: 47,
+    image: "48.jpg",
+    title: "Culineer Clone",
+    tagline: "Web Development",
+    filter: ["all", "web-development"],
   },
 ];
 

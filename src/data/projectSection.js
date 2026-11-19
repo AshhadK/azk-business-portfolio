@@ -894,4 +894,18 @@ expertise in specific subjects and indicate the areas they can travel to, facili
     category: "CMS - WordPress",
     link: "",
   },
+  {
+    id: 47,
+    images: ["featured-image-191.jpg"],
+    title: "Culineer Clone: Local Food & Seasonal Recipes Platform",
+    about: "Clone of the Culineer platform (culineerapp.com) — a local food marketplace connecting consumers with farms, farm stands and home cooks, with seasonal recipes, a meal planner and a shopping list.",
+    paragraphs: [
+      "This project is a clone of Culineer (culineerapp.com), a platform that connects consumers with local food producers, farmers markets and home cooks for a healthier, sustainable food system. The experience opens with a clear message about supporting local food heroes and guides visitors to join as a consumer or upgrade a business.",
+      "The platform brings together producer and market listings, home cook profiles and a searchable directory, along with seasonal recipes, an easy-to-use meal planner and an automatic shopping list. Users can explore what is fresh and in season near them, plan meals ahead and shop smarter every week.",
+      "Built as a freelance project, the clone recreates the original platform in Next.js and Tailwind CSS with reusable components, a clean green and cream palette, and a fully responsive layout that stays fast and easy to navigate on every device. The live build is available at culineer-azk.vercel.app.",
+    ],
+    clients: "Freelance Project",
+    category: "Web Development",
+    link: "https://culineer-azk.vercel.app/",
+  },
 ];
